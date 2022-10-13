@@ -1,0 +1,43 @@
+:root{
+    --emerald : #5BD149;
+    --cream: #fafafa;
+    --blue: #4473B6;
+    --black: #0a0a0e;
+}
+.container{
+    color: var(--black);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.contact-header{
+   background-color: var(--emerald);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 16px;
+}
+
+.heading{
+    background-color: var(--cream);
+    display: flex;
+    align-items: center;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    list-style-type: none
+}
+
+.nav-list li{
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-right: 8px;
+    cursor: pointer;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 500;
+}
